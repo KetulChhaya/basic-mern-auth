@@ -1,0 +1,433 @@
+/* register css */
+.bg-light {
+  background-color: #ffff !important;
+}
+body {
+  color: #fff;
+  /* background: #63738a; */
+  font-family: "Roboto", sans-serif;
+}
+/* HOMEPAGE CSS */
+.home-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(24, 24, 24);
+  height: 93vh;
+  color: #fff;
+  background: #f0f2f0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #000c40,
+    #f0f2f0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #000c40,
+    #f0f2f0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.border-line {
+  width: 30%;
+  margin: auto;
+  border: 5px solid navy;
+  margin-bottom: 1rem;
+  border-radius: 25px;
+}
+/*END OF HOMEPAGE CSS */
+/* SIGNUP CSS */
+.signup {
+  width: 80%;
+  margin: auto;
+  background-color: transparent;
+  color: #212121;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+.signup .signup-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 1rem;
+}
+.signup .signup-content .signup-form {
+  flex: 50%;
+}
+.signup .signup-content .signup-form .form-title {
+  margin: 1rem 2rem;
+  /* padding-bottom: 1rem; */
+}
+.signup-form form {
+  margin: 0rem 1rem;
+}
+.signup .signup-content .signup-form .register-form .form-group {
+  margin: 0.5rem;
+  display: flex;
+}
+.register-form .form-group label {
+  width: 30px;
+  display: flex;
+  align-items: center;
+}
+.register-form .form-group input {
+  width: 100%;
+  outline: none;
+  border-bottom: 2px solid #fff;
+  background: transparent;
+  color: #212121;
+  border: none;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  border-bottom: 2px solid #000;
+  margin: 1rem 0rem;
+}
+.signup-content .img-con {
+  flex: 50%;
+  /* width: 30%; */
+
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+.signup-content .img-con img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+label p {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+.form-title {
+  font-weight: 650;
+}
+.form-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* END OF SIGNUP CSS */
+/* CONTACT CSS */
+.row {
+  margin: 2rem !important;
+}
+.contact-info-item {
+  display: flex;
+  /* justify-content: space-between; */
+  padding: 0.5rem 2rem;
+  align-items: center;
+  /* border: 1px solid black; */
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 15px;
+  border-radius: 10px;
+  margin: auto 2rem;
+}
+.contact-info-item .contact-info-title h6 {
+  font-weight: 650;
+}
+.contact-info-item .icon {
+  margin: 0.5rem;
+}
+.contact-info-item .content-info-content {
+  margin-left: 1rem;
+  color: #fff;
+}
+.contact-us-con {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  /* background: #000; */
+}
+.contact-form-title {
+  padding: 0.5rem 2rem;
+}
+.contact-form-title h3 {
+  font-weight: 650;
+}
+.form-body {
+  margin: 0.5rem 2rem;
+}
+.form-div div {
+  margin: 0.5rem 1rem;
+}
+.form-div input {
+  width: 25%;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid black;
+  margin: 1rem 0rem;
+  padding: 0.5rem 1rem;
+}
+.item-1 {
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.item-2 {
+  background: #000428; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #004e92,
+    #000428
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #004e92,
+    #000428
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.item-3 {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/* END CONTACT CSS */
+/* ABOUT US CSS */
+.emp-profile {
+  padding: 3%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border-radius: 0.5rem;
+  background: transparent;
+}
+.profile-img {
+  text-align: center;
+}
+.profile-img img {
+  width: 70%;
+  height: 100%;
+}
+.profile-img .file {
+  position: relative;
+  overflow: hidden;
+  margin-top: -20%;
+  width: 70%;
+  border: none;
+  border-radius: 0;
+  font-size: 15px;
+  background: #212529b8;
+}
+.profile-img .file input {
+  position: absolute;
+  opacity: 0;
+  right: 0;
+  top: 0;
+}
+.profile-head h5 {
+  color: #333;
+}
+.profile-head h6 {
+  color: #0062cc;
+}
+.profile-edit-btn {
+  border: none;
+  border-radius: 1.5rem;
+  width: 70%;
+  padding: 2%;
+  font-weight: 600;
+  color: #6c757d;
+  cursor: pointer;
+}
+.proile-rating {
+  font-size: 12px;
+  color: #818182;
+  margin-top: 5%;
+}
+.proile-rating span {
+  color: #495057;
+  font-size: 15px;
+  font-weight: 600;
+}
+.profile-head .nav-tabs {
+  margin-bottom: 5%;
+}
+.profile-head .nav-tabs .nav-link {
+  font-weight: 600;
+  border: none;
+}
+.profile-head .nav-tabs .nav-link.active {
+  border: none;
+  border-bottom: 2px solid #0062cc;
+}
+.profile-work {
+  padding: 14%;
+  margin-top: -15%;
+}
+.profile-work p {
+  font-size: 12px;
+  color: #818182;
+  font-weight: 600;
+  margin-top: 10%;
+}
+.profile-work a {
+  text-decoration: none;
+  color: #495057;
+  font-weight: 600;
+  font-size: 14px;
+}
+.profile-work ul {
+  list-style: none;
+}
+.profile-tab label {
+  font-weight: 600;
+  color: #000;
+}
+.profile-tab p {
+  font-weight: 600;
+  color: #0062cc;
+}
+/* END OF ABOUT US CSS */
+/* 404 */
+.error-page {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url("./assets/images/error-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100% !important;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: center;
+}
+.error-text {
+  display: flex;
+  flex-direction: column;
+  /* max-height: 250px; */
+}
+.back-text {
+  font-weight: 800;
+  font-size: 250px;
+  margin: auto;
+  color: var(--grey-color);
+  opacity: 0.25;
+}
+.front-text {
+  margin: auto;
+  font-size: 72px;
+  position: relative;
+  top: -12rem;
+  opacity: 0.8;
+}
+.error-desc {
+  position: relative;
+  top: 1rem;
+  padding: 15px 50px;
+  font-size: 18px;
+  color: var(--grey-color);
+  line-height: 1.3;
+}
+.home-page-btn {
+  margin: 4% auto;
+}
+@media screen and (max-width: 720px) {
+  .error-text {
+    max-height: 200px;
+  }
+  .back-text {
+    font-size: 200px;
+  }
+  .front-text {
+    font-size: 60px;
+    top: -8rem;
+  }
+  .error-desc {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .error-text {
+    max-height: 150px;
+  }
+  .back-text {
+    font-size: 150px;
+  }
+  .front-text {
+    font-size: 48px;
+    top: -6.5rem;
+  }
+  .error-desc {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .error-text {
+    max-height: 100px;
+  }
+  .back-text {
+    font-size: 100px;
+  }
+  .front-text {
+    font-size: 36px;
+    top: -4.5rem;
+  }
+  .error-desc {
+    font-size: 12px;
+  }
+}
+
+/* End of 404 */
+@media screen and (max-width: 1150px) {
+  .signup-content {
+    flex-direction: column-reverse;
+  }
+  .signup-form {
+    position: relative;
+    top: 0rem;
+    margin-top: 2rem;
+    width: 100%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 992px) {
+  .contact-info-item {
+    box-shadow: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 10px 10px 15px;
+    margin: 1rem 0.2rem;
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 500px) {
+  .form-button {
+    flex-direction: column;
+  }
+  .form-title {
+    text-align: center;
+  }
+  .form-button h6 {
+    margin: 1rem auto;
+  }
+  .row {
+    margin: 3rem 0 !important;
+  }
+  .d-flex {
+    flex-direction: column !important;
+  }
+  .form-div input {
+    width: 100%;
+  }
+}
